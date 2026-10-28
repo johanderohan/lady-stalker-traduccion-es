@@ -1,0 +1,6 @@
+*
+!README.md
+!.gitignore
+!.github/
+.github/*
+!.github/FUNDING.yml
