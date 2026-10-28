@@ -10,11 +10,13 @@ La descarga contiene un parche XDELTA. Necesitas tu propia copia del juego; no s
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**. Estado: **en revisión de partida**.
+Última versión: **[v1.1](../../releases/tag/v1.1)**. Estado: **en revisión de partida**.
 
 El trabajo incluye 1220 mensajes principales, 358 registros de nombres y textos de sistema —conservando sus huecos originales—, 30 líneas de prólogo, menús y gráficos funcionales. Los créditos y las pantallas de final incluyen 31 rótulos localizados; se mantienen nombres de personas y logotipos.
 
 Los objetos y algunas habilidades utilizan nombres abreviados en listas estrechas. Los diálogos conservan los nombres completos. Se mantienen las siglas LP/SP del original.
+
+La **v1.1** completa las nueve cartelas distintas de la presentación automática, incluida la despedida. Se revisaron sus diez apariciones y el ciclo completo sin pulsar botones; la prueba de partida nueva es independiente. Se mantienen los logotipos, el rojo y los tiempos originales.
 
 ### Comprobaciones y límites
 
@@ -42,15 +44,22 @@ La traducción, el romhacking y la revisión están asistidos por IA. No se acre
 3. Aplica el parche con Delta Patcher o con `xdelta3`:
 
    ```sh
-   xdelta3 -d -s "Lady Stalker - Kako kara no Chousen (Japan).sfc" "Lady-Stalker-Castellano-v1.0.xdelta" "Lady Stalker - Castellano.sfc"
+   xdelta3 -d -s "Lady Stalker - Kako kara no Chousen (Japan).sfc" "Lady-Stalker-Castellano-v1.1.xdelta" "Lady Stalker - Castellano.sfc"
    ```
 
-4. Verifica el resultado: tamaño 4.194.304 bytes; MD5 `6bb5683f217f436418806646ee9dab6f`; SHA-256 `cea1f6da27d6b491ba5b79b7a1222532f71c5ffac516bd61ef50828e4f0f9ff3`.
+4. Verifica el resultado: tamaño 4.194.304 bytes; MD5 `da03adb05e887762b0e1015723e57c22`; SHA-256 `6813ccb63f1b6a7b1c35d6aaff7f646eee123e3397399db0057b7dc52439744e`.
 5. Empieza una partida nueva. No cargues estados de emulador creados con la ROM original u otra candidata. La prueba de guardar/cargar se refiere a partidas normales de esta versión.
 
 Cada versión se aplica sobre la ROM japonesa original, no sobre una traducción anterior.
 
 ## Cambios
+
+### v1.1 — 28 de octubre de 2026
+
+- Traduce los rótulos japoneses y la despedida inglesa de la presentación automática.
+- Revisa las nueve cartelas distintas, su repetición y el retorno al inicio sin pulsar botones.
+- Ajusta las frases largas en dos líneas para evitar recortes durante la animación; conserva marcas, color y tiempos.
+- Verifica por separado Start y partida nueva, reconstrucción y reaplicación del parche.
 
 ### v1.0 — 28 de octubre de 2026
 
@@ -66,7 +75,7 @@ Proyecto de [johanderohan](https://github.com/johanderohan). Lady Stalker y sus 
 
 Se consultó un toolkit público como referencia técnica. El guion se tradujo desde el japonés: no se aplicó una traducción inglesa como base.
 
-Algunos rótulos compactos se han rasterizado a partir de DejaVu Sans. Los nuevos glifos de sistema tienen diseño propio; se conservan las formas nativas que el motor necesita. Se incluye el aviso de licencia de la fuente empleada en los rótulos.
+Los rótulos compactos y las cartelas de presentación se han rasterizado a partir de DejaVu Sans y DejaVu Sans Bold. Los nuevos glifos de sistema tienen diseño propio; se conservan las formas nativas que el motor necesita. Se incluye el aviso de licencia de la fuente empleada en los rótulos.
 
 <details>
 <summary>Licencia de DejaVu Sans / Bitstream Vera</summary>
