@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/super-nintendo/lady-stalker)**.
+
 Traducción al **castellano de España** de *Lady Stalker: Kako kara no Chousen*, para Super Nintendo / Super Famicom. El guion parte del original japonés.
 
 La descarga contiene un parche XDELTA. Necesitas tu propia copia del juego; no se incluye la ROM.
@@ -10,7 +12,7 @@ La descarga contiene un parche XDELTA. Necesitas tu propia copia del juego; no s
 
 Última versión: **[v1.0](../../releases/tag/v1.0)**. Estado: **en revisión de partida**.
 
-El trabajo incluye 1220 mensajes principales, 352 registros de diccionario BYTE y 6 WORD —conservando sus vacíos originales—, 30 líneas de prólogo, menús y gráficos funcionales. Los créditos y las pantallas de final incluyen 31 rótulos localizados; se mantienen nombres de personas y logotipos.
+El trabajo incluye 1220 mensajes principales, 358 registros de nombres y textos de sistema —conservando sus huecos originales—, 30 líneas de prólogo, menús y gráficos funcionales. Los créditos y las pantallas de final incluyen 31 rótulos localizados; se mantienen nombres de personas y logotipos.
 
 Los objetos y algunas habilidades utilizan nombres abreviados en listas estrechas. Los diálogos conservan los nombres completos. Se mantienen las siglas LP/SP del original.
 
